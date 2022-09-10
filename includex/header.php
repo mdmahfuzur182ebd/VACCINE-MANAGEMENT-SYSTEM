@@ -9,5 +9,40 @@
     <script src="//localhost/vaccine/includes/jquery.min.js" ></script>
     <title>Vaccine App</title>
 </head>
-<body>
-    
+<<body>
+     <!--navbar section-->
+    <nav class="navbar navbar-expand-lg navbar-container ">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">Vaccine Management System</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navmy"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active a " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a " href="#">Nurse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a " href="userlogin.html">User</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link a " href="#">Vaccine </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link a " href="Admin/adminlogin.php">Admin</a>
+                    </li>
+                </ul>
+         
+            </div>
+        </div>
+    </nav>
+</body>
