@@ -1,4 +1,18 @@
- <section>
+<style>
+        
+/* footer */
+.footer {
+  background-color: #FFF;
+}
+
+.footer p {
+  color: #00000;
+  width: 100%;
+</style>
+
+<body>
+            
+    <section>
         <div class="footer">
             <div class="container1">
                 <div class="row py-5">
@@ -15,3 +29,6 @@
             </div>
         </div>
     </section>
+
+    
+</body>
